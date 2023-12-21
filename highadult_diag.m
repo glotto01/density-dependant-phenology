@@ -1,5 +1,5 @@
 function [xx,yy]=highadult_diag(a,Pmax,n)
-%makes plot of the growth function A1 vs. A0 
+%makes plot of the growth function A0 vs. A1
 tic
 alpha=10;
 nu1=1;
