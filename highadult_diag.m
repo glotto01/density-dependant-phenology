@@ -1,6 +1,6 @@
 function [xx,yy]=highadult_diag(a,Pmax,n)
-%makes plot of P1 vs. P0 for the case of high adult mortality rate
-%   used to diagnose what value should be used for Pmax and Pmax/n
+%makes plot of A1 vs. A0 for the case of high adult mortality rate
+%   used to diagnose what value should be used for Amax and Amax/n
 tic
 alpha=10;
 nu1=1;
