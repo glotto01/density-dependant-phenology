@@ -1,6 +1,6 @@
 function  eqvsa_highadult(a0,a1,n)
 tic
-% scans through a giving csv file with row entries [a, eq1, eq2, eq3]
+% scans through paramter a outputting csv file with row entries [a, eq1, eq2, eq3]
 aa=linspace(a0,a1,n);
 data=zeros(n,5);
 for k=1:n
