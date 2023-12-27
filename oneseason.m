@@ -1,6 +1,6 @@
 function [p1]=oneseason(alpha,nu1,nu2,beta,a,b,p0)
 %season to season map
-%mean emergence time is Max(.1,a*P+b), variance is 0.1
+%mean emergence time is Max(.15,a*P+b), variance is 0.1
 sigma=.15;
 theta=sigma^2/max(sigma,a*p0+b);
 k=max(sigma,a*p0+b)^2/sigma^2;
